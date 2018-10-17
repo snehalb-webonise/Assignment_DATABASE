@@ -1,0 +1,1 @@
+create table products(id int(10) primary key,name varchar(30));

@@ -1,0 +1,1 @@
+create view orders_details as select ord.id,ord.total,ord.discount_id ,pay.trans_mode,pay.trans_date from orders ord , payment pay , discounts dis where dis.id = ord.discount_id;

@@ -1,0 +1,1 @@
+insert into discounts values(700,'flat',200),(701,'20%',500);

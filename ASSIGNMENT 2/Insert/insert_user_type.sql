@@ -1,0 +1,1 @@
+insert into user_type values(999,'buyer',101),(991,'buyer',102);

@@ -1,0 +1,1 @@
+select ord.id ,ord.user_id,pro.name as product_name ,c.cost, us.name ,us.email from users us ,orders ord , payment pay , discounts dis,  products pro ,cart c where us.id =ord.user_id and pro.id = c.product_id and pay.trans_date between '2018-09-15' and '2018-10-15';

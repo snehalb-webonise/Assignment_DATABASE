@@ -1,0 +1,1 @@
+insert into orders values(700,102,500,'xyz',700);
