@@ -1,0 +1,1 @@
+select dept.manager_id from departments dept where dept.budget > 5000000;

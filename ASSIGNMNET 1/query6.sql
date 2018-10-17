@@ -1,0 +1,1 @@
+select e.name from employees e ,departments d where  e.id= d.manager_id AND d.budget =(select max(dept.budget) from departments dept);

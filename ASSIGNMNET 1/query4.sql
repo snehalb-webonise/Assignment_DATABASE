@@ -1,0 +1,1 @@
+select emp.name from employees emp ,works w, departments dept  where emp.id = w.employee_id AND dept.id = w.department_id AND emp.salary >(select max(budget)from departments);
